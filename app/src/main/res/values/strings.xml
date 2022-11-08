@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">U-SEE APP</string>
+    <string name="a_desc">Between CITCS Office and Upstairs to Gate 1</string>
+    <string name="b_desc">Between M301 and M304 Room</string>
+    <string name="c_desc">Between M305 and Upstairs to Gate 1</string>
+    <string name="gate1"> Located at GOV PACK RD</string>
+    <string name="gate2"> Located at GOV PACK RD</string>
+    <string name="gate3"> Located at GOV PACK RD</string>
+    <string name="gate5"> Located at Harrison RD</string>
+    <string name="gate6"> Located at Harrison RD</string>
+    <string name="CITCS">Gate 1 below Administration Main Building 4th Floor</string>
+    <string name="COA">Gate 1 below CITCS Main Building</string>
+    <string name="CEA">Gate 5 entrance beside Cafiteria</string>
+    <string name="Welcome">Hello UCIAN!</string>
+    <string name="SITCS"> CITCS</string>
+    <string name="SOA">COA</string>
+    <string name="SEA">CEA</string>
+</resources>
