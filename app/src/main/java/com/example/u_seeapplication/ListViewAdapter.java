@@ -81,19 +81,61 @@ public class ListViewAdapter extends BaseAdapter {
 
                 if(modellist.get(position).getTitle().equals("M301")){
                     //start New Activity with title for actionbar and text for textview
-                    Intent intent = new Intent(mContext, MainActivityViewPagerM301.class);
+                    Intent intent = new Intent(mContext, m301prompt.class);
                     mContext.startActivity(intent);
                 }
                 if(modellist.get(position).getTitle().equals("M302")){
                     //start New Activity with title for actionbar and text for textview
-                    Intent intent = new Intent(mContext, MainActivityViewPagerM302.class);
+                    Intent intent = new Intent(mContext, m302Act.class);
                     mContext.startActivity(intent);
                 }
                 if(modellist.get(position).getTitle().equals("M303")){
                     //start New Activity with title for actionbar and text for textview
-                    Intent intent = new Intent(mContext, MainActivityViewPagerM303.class);
+                    Intent intent = new Intent(mContext, m303Act.class);
                     mContext.startActivity(intent);
                 }
+
+                if(modellist.get(position).getTitle().equals("M304")){
+                    //start New Activity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, m304Act.class);
+                    mContext.startActivity(intent);
+                }
+
+                if(modellist.get(position).getTitle().equals("M305")){
+                    //start New Activity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, m305Act.class);
+                    mContext.startActivity(intent);
+                }
+
+                if(modellist.get(position).getTitle().equals("M306")){
+                    //start New Activity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, m306Act.class);
+                    mContext.startActivity(intent);
+                }
+
+                if(modellist.get(position).getTitle().equals("M307")){
+                    //start New Activity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, m307Act.class);
+                    mContext.startActivity(intent);
+                }
+
+                if(modellist.get(position).getTitle().equals("S312")){
+                    //start New Activity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, s312Act.class);
+                    mContext.startActivity(intent);
+                }
+
+
+               /*
+               //FOR GYM ACTIVITY
+                if(modellist.get(position).getTitle().equals("GYM")){
+                    //start New Activity with title for actionbar and text for textview
+                    //Kung ano name ng java file na unang pupuntahan pag pinindot na yung sinearch mo
+                    Intent intent = new Intent(mContext, s312Act.class);
+                    mContext.startActivity(intent);
+                }
+
+                */
 
             }
         });

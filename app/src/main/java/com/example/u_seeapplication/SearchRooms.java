@@ -24,7 +24,7 @@ public class SearchRooms extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_searchrooms);
+        setContentView(R.layout.activity_listviewsearch);
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("Rooms in UC");
@@ -37,8 +37,10 @@ public class SearchRooms extends AppCompatActivity {
                 "M305",
                 "M306",
                 "M307",
-                "S312"};
-        description = new String[]{
+                "S312",
+                "GYM"};
+        description = new String[]
+                {
                 "Main Building",
                 "Main Building",
                 "Main Building",
@@ -46,16 +48,19 @@ public class SearchRooms extends AppCompatActivity {
                 "Main Building",
                 "Main Building",
                 "Main Building",
-                "Science Building"};
-        /*description = new String[]{"ROOM:M301", "ROOM:M302", "ROOM:M303", "ROOM:M304", "ROOM:M305"}; */
-        icon = new int[]{R.drawable.m301,
+                "Science Building",
+                "PE BUILDING"};
+
+        icon = new int[]
+                        {R.drawable.m301,
                          R.drawable.m302,
                          R.drawable.m303,
-                         R.drawable.ic_launcher_playstore,
-                         R.drawable.ic_launcher_playstore,
-                         R.drawable.ic_launcher_playstore,
-                         R.drawable.ic_launcher_playstore,
-                         R.drawable.ic_launcher_playstore };
+                         R.drawable.m304,
+                         R.drawable.m305,
+                         R.drawable.m306,
+                         R.drawable.m307,
+                         R.drawable.s312,
+                        R.drawable.ic_launcher_playstore};
 
 
 

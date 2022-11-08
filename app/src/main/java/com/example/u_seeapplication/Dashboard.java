@@ -49,7 +49,7 @@ public class Dashboard extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 showToast("Colleges");
-                view.getContext().startActivity(new Intent(view.getContext(),collegeVP.class));
+                view.getContext().startActivity(new Intent(view.getContext(),CollegeViewer.class));
             }
         });
 

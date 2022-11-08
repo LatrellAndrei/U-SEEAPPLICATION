@@ -1,8 +1,13 @@
 <resources>
     <string name="app_name">U-SEE APP</string>
-    <string name="a_desc">Between CITCS Office and Upstairs to Gate 1</string>
-    <string name="b_desc">Between M301 and M304 Room</string>
-    <string name="c_desc">Between M305 and Upstairs to Gate 1</string>
+    <string name="m301_desc">Between CITCS Office and Upstairs to Gate 1</string>
+    <string name="m302_desc">Between Room M301 and M304 </string>
+    <string name="m303_desc">Between M305 and Upstairs to Gate 1</string>
+    <string name="m304_desc">Between CITCS Office (M302) and M306</string>
+    <string name="m305_desc">Along M303 and CITCS Hallway</string>
+    <string name="m306_desc">Between RoomM304 and M307</string>
+    <string name="m307_desc">Along CITCS Hallway and M306</string>
+    <string name="s312_desc">Between CITCS Hallway and UC Gymnasium</string>
     <string name="gate1"> Located at GOV PACK RD</string>
     <string name="gate2"> Located at GOV PACK RD</string>
     <string name="gate3"> Located at GOV PACK RD</string>
