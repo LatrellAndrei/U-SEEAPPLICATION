@@ -60,7 +60,7 @@ public class SearchRooms extends AppCompatActivity {
                          R.drawable.m306,
                          R.drawable.m307,
                          R.drawable.s312,
-                        R.drawable.ic_launcher_playstore};
+                        R.drawable.gym};
 
 
 
