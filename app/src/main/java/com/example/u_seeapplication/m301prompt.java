@@ -10,32 +10,31 @@ import android.widget.Button;
 
 public class m301prompt extends AppCompatActivity {
 
-    private Button btn1;
-    private Button btn2;
+    private Button btngates,btncolleges;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_m301prompt);
 
-        btn1 = (Button) findViewById(R.id.btn1);
-        btn2 = (Button) findViewById(R.id.btn2);
+        btngates = (Button) findViewById(R.id.btngates);
 
-        btn1.setOnClickListener(new View.OnClickListener() {
-
+        btngates.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                Intent i = new Intent(m301prompt.this, m301Act.class);
+            public void onClick(View view) {
+                Intent i = new Intent(m301prompt.this, gate_clicked.class);
                 startActivity(i);
             }
         });
 
-        btn2.setOnClickListener(new View.OnClickListener() {
+        btncolleges = (Button) findViewById(R.id.btncolleges);
 
+        btncolleges.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(m301prompt.this, m302Act.class);
-                startActivity(intent);
+            public void onClick(View view) {
+                Intent i = new Intent(m301prompt.this, colleges.class);
+                startActivity(i);
             }
         });
     }

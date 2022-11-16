@@ -8,6 +8,7 @@
     tools:context=".m301Act">
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="525dp"
@@ -15,36 +16,63 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/view_flipper"
-        >
+        app:layout_constraintTop_toTopOf="@+id/view_flipper">
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="138dp"
             android:fontFamily="sans-serif-black"
             android:text="M301"
-            android:layout_marginLeft="138dp"
             android:textColor="@color/black"
             android:textSize="50sp"
             tools:ignore="MissingConstraints" />
+
         <TextView
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif"
             android:text="@string/m301_desc"
-            android:textColor="@color/black"
             android:textAlignment="center"
+            android:textColor="@color/black"
             android:textSize="25sp"
             tools:ignore="MissingConstraints" />
 
     </LinearLayout>
 
+
+    <Button
+        android:id="@+id/dashbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dashboard"
+        android:layout_marginTop="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/next"
+        app:layout_constraintStart_toStartOf="@+id/previous"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+
+    <Button
+        android:id="@+id/btnroom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find other room"
+        android:layout_marginTop="380dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/next"
+        app:layout_constraintStart_toStartOf="@+id/previous"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+
+
+
     <ViewFlipper
         android:id="@+id/view_flipper"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="380dp"
         android:autoStart="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"

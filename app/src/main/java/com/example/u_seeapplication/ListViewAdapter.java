@@ -126,16 +126,16 @@ public class ListViewAdapter extends BaseAdapter {
                 }
 
 
-               /*
+
                //FOR GYM ACTIVITY
                 if(modellist.get(position).getTitle().equals("GYM")){
                     //start New Activity with title for actionbar and text for textview
                     //Kung ano name ng java file na unang pupuntahan pag pinindot na yung sinearch mo
-                    Intent intent = new Intent(mContext, s312Act.class);
+                    Intent intent = new Intent(mContext, m301prompt.class);
                     mContext.startActivity(intent);
                 }
 
-                */
+
 
             }
         });
