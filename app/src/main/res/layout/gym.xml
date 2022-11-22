@@ -22,7 +22,7 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="155dp"
+            android:layout_marginLeft="135dp"
             android:fontFamily="sans-serif-black"
             android:text="GYM"
             android:textColor="@color/black"

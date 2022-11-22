@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
         android:text="GYM"
-        android:layout_marginLeft="140dp"
+        android:layout_marginLeft="135dp"
         android:textColor="@color/black"
         android:textSize="50sp"
         tools:ignore="MissingConstraints" />

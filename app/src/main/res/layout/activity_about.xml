@@ -74,8 +74,9 @@ for new students and students that can't easily remember places in big Universit
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Developers: "
+                android:paddingLeft="10dp"
                 android:fontFamily="serif-monospace"
-                android:layout_marginRight="140dp"
+                android:layout_marginRight="135dp"
                 />
 
             <LinearLayout
@@ -320,6 +321,7 @@ for new students and students that can't easily remember places in big Universit
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="V 1.0"
+                android:paddingRight="15dp"
                 android:layout_marginLeft="160dp"/>
         </LinearLayout>
 
