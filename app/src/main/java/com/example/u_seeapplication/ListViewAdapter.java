@@ -131,7 +131,7 @@ public class ListViewAdapter extends BaseAdapter {
                 if(modellist.get(position).getTitle().equals("GYM")){
                     //start New Activity with title for actionbar and text for textview
                     //Kung ano name ng java file na unang pupuntahan pag pinindot na yung sinearch mo
-                    Intent intent = new Intent(mContext, m301prompt.class);
+                    Intent intent = new Intent(mContext, g12gym.class);
                     mContext.startActivity(intent);
                 }
 

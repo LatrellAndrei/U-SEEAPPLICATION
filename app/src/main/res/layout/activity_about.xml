@@ -283,7 +283,7 @@ for new students and students that can't easily remember places in big Universit
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Contact no: 09xx-xxx-xxxx"
+                        android:text="Contact no: 0939-500-7845"
                         android:padding="5dp"/>
 
                     <TextView

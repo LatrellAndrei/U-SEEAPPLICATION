@@ -23,5 +23,7 @@ public class gate_clicked extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+
     }
 }

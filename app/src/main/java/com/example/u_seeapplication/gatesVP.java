@@ -18,7 +18,7 @@ public class gatesVP extends AppCompatActivity {
         setContentView(R.layout.activity_roombg);
 
         viewPager2 = findViewById(R.id.viewpager);
-        int[] images = { R.drawable.gate1,
+        int[] images = { R.drawable.gate1ent,
                          R.drawable.gate2,
                          R.drawable.gate3,
                          R.drawable.gate5,

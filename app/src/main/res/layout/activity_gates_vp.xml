@@ -16,21 +16,21 @@
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_margin="8dp"
             app:cardCornerRadius="16dp"
             android:elevation="8dp">
 
             <RelativeLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="match_parent">
 
                 <ImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="250dp"
+                    android:layout_height="320dp"
                     android:id="@+id/ivimage"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/gate1"/>
+                    android:src="@drawable/gate1ent"/>
 
                 <TextView
                     android:id="@+id/tvHeading"

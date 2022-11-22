@@ -28,14 +28,6 @@ public class m301prompt extends AppCompatActivity {
             }
         });
 
-        btncolleges = (Button) findViewById(R.id.btncolleges);
 
-        btncolleges.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(m301prompt.this, colleges.class);
-                startActivity(i);
-            }
-        });
     }
 }

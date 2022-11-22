@@ -73,7 +73,7 @@
             android:id="@+id/img2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/coaimage"
+            android:src="@drawable/coaprograms"
             app:zoomage_animateOnReset="true"
             app:zoomage_autoCenter="true"
             app:zoomage_autoResetMode="UNDER"
