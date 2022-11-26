@@ -14,14 +14,14 @@ public class citcs_rooms extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.citcs_rooms);
+        setContentView(R.layout.m301_to_gym_citcs_clicked);
 
 
         btnm301 = (Button) findViewById(R.id.btnm301);
         btnm301.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(citcs_rooms.this, gym.class);
+                Intent i = new Intent(citcs_rooms.this, m301_to_gym_guide.class);
                 startActivity(i);
             }
         });

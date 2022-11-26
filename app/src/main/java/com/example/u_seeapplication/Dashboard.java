@@ -20,7 +20,7 @@ public class Dashboard extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dashboard);
+        setContentView(R.layout.dashboard);
 
         cardSearch = findViewById(R.id.cardSearch);
         cardGates = findViewById(R.id.cardGates);
@@ -33,7 +33,7 @@ public class Dashboard extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 showToast("Search");
-                view.getContext().startActivity(new Intent(view.getContext(),SearchRooms.class));
+                view.getContext().startActivity(new Intent(view.getContext(), search_rooms_listview.class));
             }
         });
 
@@ -41,7 +41,7 @@ public class Dashboard extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 showToast("Gates");
-                view.getContext().startActivity(new Intent(view.getContext(),gatesVP.class));
+                view.getContext().startActivity(new Intent(view.getContext(), gates_list.class));
             }
         });
 
@@ -67,7 +67,7 @@ public class Dashboard extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 showToast("About U-SEE ");
-                view.getContext().startActivity(new Intent(view.getContext(),About.class));
+                view.getContext().startActivity(new Intent(view.getContext(), about_page.class));
             }
         });
 
@@ -75,7 +75,7 @@ public class Dashboard extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 showToast("Exit");
-                view.getContext().startActivity(new Intent(view.getContext(),GetStarted.class));
+                view.getContext().startActivity(new Intent(view.getContext(), get_started_page.class));
             }
         });
 

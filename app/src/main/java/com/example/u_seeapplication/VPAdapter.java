@@ -24,7 +24,7 @@ public class VPAdapter extends RecyclerView.Adapter<VPAdapter.ViewHolder> {
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
         View view = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.activity_gates_vp, parent, false);
+                .inflate(R.layout.gates_list, parent, false);
         return new ViewHolder(view);
     }
 

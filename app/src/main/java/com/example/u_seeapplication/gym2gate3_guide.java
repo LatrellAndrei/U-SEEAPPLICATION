@@ -20,7 +20,7 @@ public class gym2gate3_guide extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.gym2gate3_guide);
+        setContentView(R.layout.gate3_to_gym_guide);
 
         viewFlipper = findViewById(R.id.view_flipper);
         Next = findViewById(R.id.next);
@@ -52,7 +52,7 @@ public class gym2gate3_guide extends AppCompatActivity {
         btnroom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(gym2gate3_guide.this, SearchRooms.class);
+                Intent i = new Intent(gym2gate3_guide.this, search_rooms_listview.class);
                 startActivity(i);
             }
         });
