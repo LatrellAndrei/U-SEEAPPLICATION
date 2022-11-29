@@ -27,7 +27,7 @@ public class search_rooms_listview extends AppCompatActivity {
         setContentView(R.layout.search_rooms_listview);
 
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("Rooms in UC");
+        actionBar.setTitle("Search");
 
         title = new String[]
                 {"M301",

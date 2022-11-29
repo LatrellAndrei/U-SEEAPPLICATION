@@ -31,7 +31,7 @@ public class CollegeViewer extends AppCompatActivity {
                 "COLLEGE OF ARTS AND SCIENCES",
                 "COLLEGE OF BUSINESS ADMINISTRATION",
                 "COLLEGE OF HOSPITALITY AND TOURISM MANAGEMENT",
-                        "COLLEGE OF NURSING,",
+                        "COLLEGE OF NURSING",
                         "COLLEGE OF LAW"};
         description = new String[]
                         {"CITCS",
@@ -48,12 +48,12 @@ public class CollegeViewer extends AppCompatActivity {
                         {R.drawable.citcsbanner,
                          R.drawable.coabanner,
                          R.drawable.ceabanner,
-                                R.drawable.ic_launcher_playstore,
-                                R.drawable.ic_launcher_playstore,
-                                R.drawable.ic_launcher_playstore,
-                                R.drawable.ic_launcher_playstore,
-                                R.drawable.ic_launcher_playstore,
-                                R.drawable.ic_launcher_playstore,};
+                                R.drawable.ctebanner,
+                                R.drawable.casbanner,
+                                R.drawable.cbabanner,
+                                R.drawable.chtmbanner,
+                                R.drawable.conbanner,
+                                R.drawable.colbanner,};
 
 
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#EBFCF8"
-    tools:context=".MainActivityViewPagerM301">
+    tools:context=".gates_list">
 
     <TextView
         android:id="@+id/textView"
