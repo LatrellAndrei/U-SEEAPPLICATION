@@ -7,6 +7,8 @@
     <string name="m305_desc">Along M303 and CITCS Hallway</string>
     <string name="m306_desc">Between RoomM304 and M307</string>
     <string name="m307_desc">Along CITCS Hallway and M306</string>
+    <string name="m203_desc">Below CITCS department</string>
+    <string name="m210_desc">In front of simulation room</string>
     <string name="s312_desc">Between CITCS Hallway and UC Gymnasium</string>
     <string name="gate1"> Located at GOV PACK RD</string>
     <string name="gate2"> Located at GOV PACK RD</string>

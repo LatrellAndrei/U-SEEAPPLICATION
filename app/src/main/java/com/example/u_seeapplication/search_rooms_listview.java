@@ -38,7 +38,9 @@ public class search_rooms_listview extends AppCompatActivity {
                 "M306",
                 "M307",
                 "S312",
-                "GYM"};
+                "GYM",
+                "M203",
+                "M210"};
         description = new String[]
                 {
                 "Main Building",
@@ -49,7 +51,9 @@ public class search_rooms_listview extends AppCompatActivity {
                 "Main Building",
                 "Main Building",
                 "Science Building",
-                "PE BUILDING"};
+                "PE BUILDING",
+                "Main Building",
+                "Main Building"};
 
         icon = new int[]
                         {R.drawable.m301,
@@ -60,7 +64,9 @@ public class search_rooms_listview extends AppCompatActivity {
                          R.drawable.m306,
                          R.drawable.m307,
                          R.drawable.s312,
-                        R.drawable.gym};
+                         R.drawable.gym,
+                         R.drawable.coa,
+                         R.drawable.m210};
 
 
 
