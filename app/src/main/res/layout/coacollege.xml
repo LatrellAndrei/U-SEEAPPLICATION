@@ -23,7 +23,7 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="145dp"
+            android:layout_marginLeft="110dp"
             android:fontFamily="sans-serif-black"
             android:text="COA"
             android:textColor="@color/black"
@@ -32,10 +32,10 @@
 
         <TextView
             android:id="@+id/textView1"
-            android:layout_width="wrap_content"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif"
-            android:text="@string/COA"
+            android:text="2nd floor Main building below CITCS department"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="25sp"

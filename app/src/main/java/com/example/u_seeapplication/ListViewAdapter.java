@@ -84,7 +84,7 @@ public class ListViewAdapter extends BaseAdapter {
                     Intent intent = new Intent(mContext, gates_to_m301.class);
                     mContext.startActivity(intent);
                 }
-                if(modellist.get(position).getTitle().equals("M302")){
+                if(modellist.get(position).getTitle().equals("M302(CITCS department)")){
                     //start New Activity with title for actionbar and text for textview
                     Intent intent = new Intent(mContext, gates_to_m302.class);
                     mContext.startActivity(intent);
@@ -140,6 +140,42 @@ public class ListViewAdapter extends BaseAdapter {
                     Intent intent = new Intent(mContext, gates_to_m210.class);
                     mContext.startActivity(intent);
                 }
+                if(modellist.get(position).getTitle().equals("S214(CEA department)")){
+                    Intent intent = new Intent(mContext, gates_to_s214.class);
+                    mContext.startActivity(intent);
+                }
+                if(modellist.get(position).getTitle().equals("S216(CTE department)")){
+                    Intent intent = new Intent(mContext, gates_to_s216.class);
+                    mContext.startActivity(intent);
+                }
+                if(modellist.get(position).getTitle().equals("S220")){
+                    Intent intent = new Intent(mContext, gates_to_s220.class);
+                    mContext.startActivity(intent);
+                }
+                if(modellist.get(position).getTitle().equals("G204")){
+                    Intent intent = new Intent(mContext, gates_to_g204.class);
+                    mContext.startActivity(intent);
+                }
+                if(modellist.get(position).getTitle().equals("F802a(CHTM department)")){
+                    Intent intent = new Intent(mContext, gates_to_f802a.class);
+                    mContext.startActivity(intent);
+                }
+                if(modellist.get(position).getTitle().equals("F802b(CBA department)")){
+                    Intent intent = new Intent(mContext, gates_to_f802b.class);
+                    mContext.startActivity(intent);
+                }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

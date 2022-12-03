@@ -8,21 +8,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class m301_to_gym_colleges_clicked extends AppCompatActivity {
-    private Button btncitcs;
+public class gates_to_f802b_gate2_clicked extends AppCompatActivity {
+    private Button btnent;
 
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.m301_to_gym_colleges_clicked);
+        setContentView(R.layout.gates_to_f802b_gate2_clicked);
 
-        btncitcs = (Button) findViewById(R.id.btncitcs);
+        btnent = (Button) findViewById(R.id.btnent);
 
-        btncitcs.setOnClickListener(new View.OnClickListener() {
+        btnent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(m301_to_gym_colleges_clicked.this, citcs_rooms.class);
+                Intent i = new Intent(gates_to_f802b_gate2_clicked.this, room_f802b.class);
                 startActivity(i);
             }
         });

@@ -32,7 +32,7 @@ public class gates_to_gym extends AppCompatActivity {
         btncolleges.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(gates_to_gym.this, m301_to_gym_colleges_clicked.class);
+                Intent i = new Intent(gates_to_gym.this, m301_to_gym_building_clicked.class);
                 startActivity(i);
             }
         });

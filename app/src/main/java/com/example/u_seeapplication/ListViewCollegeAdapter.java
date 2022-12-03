@@ -22,7 +22,6 @@ public class ListViewCollegeAdapter extends BaseAdapter {
     ArrayList<Model> arrayList;
 
     //constructor
-
     public ListViewCollegeAdapter (Context context, List<Model> modellist) {
         mContext = context;
         this.modellist = modellist;
@@ -94,6 +93,37 @@ public class ListViewCollegeAdapter extends BaseAdapter {
                     Intent intent = new Intent(mContext, ceaAct.class);
                     mContext.startActivity(intent);
                 }
+                if(modellist.get(position).getTitle().equals("COLLEGE OF TEACHER EDUCATION")){
+                    //start New Activity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, ctecollege.class);
+                    mContext.startActivity(intent);
+                }
+                if(modellist.get(position).getTitle().equals("COLLEGE OF ARTS AND SCIENCES")){
+                    //start New Activity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, cascollege.class);
+                    mContext.startActivity(intent);
+                }
+                if(modellist.get(position).getTitle().equals("COLLEGE OF BUSINESS ADMINISTRATION")){
+                    //start New Activity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, cbacollege.class);
+                    mContext.startActivity(intent);
+                }
+                if(modellist.get(position).getTitle().equals("COLLEGE OF HOSPITALITY AND TOURISM MANAGEMENT")){
+                    //start New Activity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, chtmcollege.class);
+                    mContext.startActivity(intent);
+                }
+                if(modellist.get(position).getTitle().equals("COLLEGE OF NURSING")){
+                    //start New Activity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, concollege.class);
+                    mContext.startActivity(intent);
+                }
+                if(modellist.get(position).getTitle().equals("COLLEGE OF LAW")){
+                    //start New Activity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, colcollege.class);
+                    mContext.startActivity(intent);
+                }
+
 
 
             }

@@ -5,15 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".citcs_rooms">
+    tools:context=".m301_to_gym_m301_clicked">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="55dp"
-        android:text="You are in the college of?"
-        android:textSize="50sp"
+        android:text="You are located at?"
+        android:textSize="48sp"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
@@ -37,8 +37,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical" >
-
-<!--start here-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

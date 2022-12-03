@@ -50,7 +50,7 @@
             android:id="@+id/btncolleges"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:text="COLLEGES"
+            android:text="building"
             android:textSize="20sp"
             android:fontFamily="sans-serif"
             android:padding="30dp"

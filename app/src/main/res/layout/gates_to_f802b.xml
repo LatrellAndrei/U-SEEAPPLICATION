@@ -5,16 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".m301_to_gym_colleges_clicked">
+    tools:context=".gates_to_f802b">
+
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="55dp"
-        android:text="You are in the college of?"
+        android:layout_marginTop="72dp"
+        android:text="Where are you?"
         android:textSize="50sp"
-        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,10 +30,10 @@
         android:gravity="center">
 
         <Button
-            android:id="@+id/btncitcs"
+            android:id="@+id/btngates"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:text="CITCS"
+            android:text="GATES"
             tools:layout_editor_absoluteX="160dp"
             tools:layout_editor_absoluteY="112dp"
             android:layout_marginBottom="200dp"
@@ -48,10 +48,10 @@
         android:gravity="center">
 
         <Button
-            android:id="@+id/btncoa"
+            android:id="@+id/btncolleges"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:text="COA"
+            android:text="building"
             android:textSize="20sp"
             android:fontFamily="sans-serif"
             android:padding="30dp"
@@ -67,34 +67,16 @@
         android:gravity="center">
 
         <Button
-            android:id="@+id/btncea"
+            android:id="@+id/btnfacilities"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:text="CEA"
+            android:text="FACILITIES"
             android:textSize="20sp"
             android:fontFamily="sans-serif"
             android:padding="30dp"
             tools:layout_editor_absoluteX="166dp"
             tools:layout_editor_absoluteY="368dp"
             android:layout_marginTop="170dp"/>
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center">
-
-        <Button
-            android:id="@+id/btnnursing"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:text="NURSING"
-            android:textSize="20sp"
-            android:fontFamily="sans-serif"
-            android:padding="30dp"
-            tools:layout_editor_absoluteX="166dp"
-            tools:layout_editor_absoluteY="368dp"
-            android:layout_marginTop="290dp"/>
 
     </LinearLayout>
 
