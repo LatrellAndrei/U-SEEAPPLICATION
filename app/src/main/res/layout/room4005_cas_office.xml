@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EBFCF8"
-    tools:context=".room_s216">
+    tools:context=".room_4005_cas_office">
+
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
@@ -21,9 +21,9 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="120dp"
+            android:layout_marginLeft="130dp"
             android:fontFamily="sans-serif-black"
-            android:text="S216"
+            android:text="4005"
             android:textColor="@color/black"
             android:textSize="50sp"
             tools:ignore="MissingConstraints" />
@@ -33,7 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif"
-            android:text="2nd floor Science building besides CEA department"
+            android:text="4th floor EDS building infront of gate2 cashier"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="25sp"
@@ -77,14 +77,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-
-
-
         <com.jsibbold.zoomage.ZoomageView
             android:id="@+id/img1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/cte"
+            android:src="@drawable/cas"
             app:zoomage_animateOnReset="true"
             app:zoomage_autoCenter="true"
             app:zoomage_autoResetMode="UNDER"
@@ -98,7 +95,7 @@
             android:id="@+id/img2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/gate5"
+            android:src="@drawable/gate2"
             app:zoomage_animateOnReset="true"
             app:zoomage_autoCenter="true"
             app:zoomage_autoResetMode="UNDER"
@@ -112,7 +109,7 @@
             android:id="@+id/img3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/gate5entrance"
+            android:src="@drawable/hallway_to_cas"
             app:zoomage_animateOnReset="true"
             app:zoomage_autoCenter="true"
             app:zoomage_autoResetMode="UNDER"
@@ -125,7 +122,7 @@
             android:id="@+id/img4"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/g52"
+            android:src="@drawable/to_cas"
             app:zoomage_animateOnReset="true"
             app:zoomage_autoCenter="true"
             app:zoomage_autoResetMode="UNDER"
@@ -134,33 +131,6 @@
             app:zoomage_restrictBounds="false"
             app:zoomage_translatable="true"
             app:zoomage_zoomable="true" />
-        <com.jsibbold.zoomage.ZoomageView
-            android:id="@+id/img5"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/g521"
-            app:zoomage_animateOnReset="true"
-            app:zoomage_autoCenter="true"
-            app:zoomage_autoResetMode="UNDER"
-            app:zoomage_maxScale="8"
-            app:zoomage_minScale="0.6"
-            app:zoomage_restrictBounds="false"
-            app:zoomage_translatable="true"
-            app:zoomage_zoomable="true" />
-        <com.jsibbold.zoomage.ZoomageView
-            android:id="@+id/img6"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/tocte"
-            app:zoomage_animateOnReset="true"
-            app:zoomage_autoCenter="true"
-            app:zoomage_autoResetMode="UNDER"
-            app:zoomage_maxScale="8"
-            app:zoomage_minScale="0.6"
-            app:zoomage_restrictBounds="false"
-            app:zoomage_translatable="true"
-            app:zoomage_zoomable="true" />
-
     </ViewFlipper>
 
     <ImageButton
@@ -186,5 +156,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="SpeakableTextPresentCheck" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

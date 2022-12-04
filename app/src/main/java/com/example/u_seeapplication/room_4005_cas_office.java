@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ViewFlipper;
 
-public class room_f802b extends AppCompatActivity {
+public class room_4005_cas_office extends AppCompatActivity {
     private ViewFlipper viewFlipper;
     private ImageButton Next, Previous;
     private Button dashbtn, btnroom;
@@ -18,7 +18,7 @@ public class room_f802b extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.room_f802b);
+        setContentView(R.layout.room4005_cas_office);
         viewFlipper = findViewById(R.id.view_flipper);
         Next = findViewById(R.id.next);
         Previous = findViewById(R.id.previous);
@@ -40,7 +40,7 @@ public class room_f802b extends AppCompatActivity {
         dashbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(room_f802b.this, Dashboard.class);
+                Intent i = new Intent(room_4005_cas_office.this, Dashboard.class);
                 startActivity(i);
             }
         });
@@ -49,7 +49,7 @@ public class room_f802b extends AppCompatActivity {
         btnroom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(room_f802b.this, search_rooms_listview.class);
+                Intent i = new Intent(room_4005_cas_office.this, search_rooms_listview.class);
                 startActivity(i);
             }
         });

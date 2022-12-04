@@ -13,7 +13,182 @@
         android:theme="@style/Theme.USEEAPPLICATION"
         tools:targetApi="31">
         <activity
-            android:name=".room_f802b"
+            android:name=".u601_to_m303_guide"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".u601_to_m303_floor6_clicked"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".u601_to_m303_brs_clicked"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".u601_to_m303_building_clicked"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".s220_to_u204_guide"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".s220_to_u204_floor2_clicked"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".s220_to_u204_science_clicked"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".s220_to_u204_building_clicked"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".gates_to_u204"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".room_u601"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".gates_to_u601_gate3_clicked"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".gates_to_u601_gates_clicked"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".gates_to_u601"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".room_4005_cas_office"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".gates_to_4005_gate2_clicked"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".gates_to_4005_gates_clicked"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".gates_to_4005"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".room_u605_law_office"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".gates_to_u605_gate3_clicked"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".gates_to_u605_gates_clicked"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".gates_to_u605"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".room_5005_nursing_office"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".gates_to_5005_gate2_clicked"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".gates_to_5005_gates_clicked"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".gates_to_5005"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".room_f802b_cba_office"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -41,7 +216,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".room_f802a"
+            android:name=".room_f802a_chtm_office"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -132,7 +307,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".room_s216"
+            android:name=".room_s216_cea_office"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -167,7 +342,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".room_s214"
+            android:name=".room_s214_cte_office"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -265,7 +440,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".room_m203"
+            android:name=".room_m203_coa_office"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

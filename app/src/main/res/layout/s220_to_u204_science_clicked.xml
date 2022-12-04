@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".s220_to_g204_science_clicked">
-
+    tools:context=".s220_to_u204_science_clicked">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -71,5 +70,4 @@
             android:textSize="20sp"
             android:padding="30dp"/>
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

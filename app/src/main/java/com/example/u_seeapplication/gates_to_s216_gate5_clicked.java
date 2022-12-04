@@ -22,7 +22,7 @@ public class gates_to_s216_gate5_clicked extends AppCompatActivity {
         btnent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(gates_to_s216_gate5_clicked.this, room_s216.class);
+                Intent i = new Intent(gates_to_s216_gate5_clicked.this, room_s216_cea_office.class);
                 startActivity(i);
             }
         });

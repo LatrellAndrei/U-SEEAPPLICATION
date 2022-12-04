@@ -8,20 +8,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class gates_to_m203_gate1_clicked extends AppCompatActivity {
-    private Button btnent;
-
+public class u601_to_m303_brs_clicked extends AppCompatActivity {
+    private Button floor6;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.gates_to_m203_gate1_clicked);
-        btnent = (Button) findViewById(R.id.btnent);
+        setContentView(R.layout.u601_to_m303_brs_clicked);
+        floor6 = (Button) findViewById(R.id.floor6);
 
-        btnent.setOnClickListener(new View.OnClickListener() {
+        floor6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(gates_to_m203_gate1_clicked.this, room_m203_coa_office.class);
+                Intent i = new Intent(u601_to_m303_brs_clicked.this, u601_to_m303_floor6_clicked.class);
                 startActivity(i);
             }
         });

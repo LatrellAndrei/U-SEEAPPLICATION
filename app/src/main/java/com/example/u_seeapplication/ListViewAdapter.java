@@ -164,6 +164,27 @@ public class ListViewAdapter extends BaseAdapter {
                     Intent intent = new Intent(mContext, gates_to_f802b.class);
                     mContext.startActivity(intent);
                 }
+                if(modellist.get(position).getTitle().equals("5005(Nursing department)")){
+                    Intent intent = new Intent(mContext, gates_to_5005.class);
+                    mContext.startActivity(intent);
+                }
+                if(modellist.get(position).getTitle().equals("U605(Law department)")){
+                    Intent intent = new Intent(mContext, gates_to_u605.class);
+                    mContext.startActivity(intent);
+                }
+                if(modellist.get(position).getTitle().equals("4005(CAS department)")){
+                    Intent intent = new Intent(mContext, gates_to_4005.class);
+                    mContext.startActivity(intent);
+                }
+                if(modellist.get(position).getTitle().equals("U601(Moot Court)")){
+                    Intent intent = new Intent(mContext, gates_to_u601.class);
+                    mContext.startActivity(intent);
+                }
+                if(modellist.get(position).getTitle().equals("U204")){
+                    Intent intent = new Intent(mContext, gates_to_u204.class);
+                    mContext.startActivity(intent);
+                }
+
 
 
 

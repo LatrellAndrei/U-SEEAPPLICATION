@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".s220_to_g204_science_clicked">
-
+    tools:context=".s220_to_u204_building_clicked">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -16,60 +15,59 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="You are in?"
+            android:text="You are in building?"
             android:textSize="47sp"
             android:textAlignment="center"/>
 
         <Button
-            android:id="@+id/floor1"
+            android:id="@+id/btncitcs"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:text="s106 - s123"
+            android:text="main"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="10dp"
             android:fontFamily="sans-serif"
             android:textSize="20sp"
             android:padding="30dp"/>
         <Button
-            android:id="@+id/floor2"
+            android:id="@+id/btneds"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:text="s213 - s241"
+            android:text="eds"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:fontFamily="sans-serif"
             android:textSize="20sp"
             android:padding="30dp"/>
         <Button
-            android:id="@+id/floor3"
+            android:id="@+id/btnbrs"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:text="s312 - s...n"
+            android:text="brs"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:fontFamily="sans-serif"
             android:textSize="20sp"
             android:padding="30dp"/>
         <Button
-            android:id="@+id/floor4"
+            android:id="@+id/btnscience"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:text="Unavailable"
+            android:text="science"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:fontFamily="sans-serif"
             android:textSize="20sp"
             android:padding="30dp"/>
         <Button
-            android:id="@+id/floor5"
+            android:id="@+id/btnpe"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:text="unavailable"
+            android:text="pe"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:fontFamily="sans-serif"
             android:textSize="20sp"
             android:padding="30dp"/>
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

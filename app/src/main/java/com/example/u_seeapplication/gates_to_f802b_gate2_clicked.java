@@ -22,7 +22,7 @@ public class gates_to_f802b_gate2_clicked extends AppCompatActivity {
         btnent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(gates_to_f802b_gate2_clicked.this, room_f802b.class);
+                Intent i = new Intent(gates_to_f802b_gate2_clicked.this, room_f802b_cba_office.class);
                 startActivity(i);
             }
         });

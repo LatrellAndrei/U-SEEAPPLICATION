@@ -3,9 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:background="#EBFCF8"
-    tools:context=".room_m203">
+    android:layout_height="match_parent"
+    tools:context=".room_f802a_chtm_office">
+
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
@@ -21,9 +22,9 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="115dp"
+            android:layout_marginLeft="120dp"
             android:fontFamily="sans-serif-black"
-            android:text="M203"
+            android:text="F802a"
             android:textColor="@color/black"
             android:textSize="50sp"
             tools:ignore="MissingConstraints" />
@@ -33,11 +34,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif"
-            android:text="@string/m203_desc"
+            android:text="8th floor EDS building besides CBA department"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="25sp"
-            android:layout_marginLeft="50dp"
             tools:ignore="MissingConstraints" />
 
     </LinearLayout>
@@ -47,27 +47,27 @@
         android:id="@+id/dashbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Dashboard"
         android:layout_marginTop="250dp"
+        android:text="Dashboard"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/next"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="@+id/previous"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
-
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.343" />
 
     <Button
         android:id="@+id/btnroom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Find other room"
         android:layout_marginTop="380dp"
+        android:text="Find other room"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/next"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="@+id/previous"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
-
-
-
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ViewFlipper
         android:id="@+id/view_flipper"
@@ -85,7 +85,7 @@
             android:id="@+id/img1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/coa"
+            android:src="@drawable/chtm"
             app:zoomage_animateOnReset="true"
             app:zoomage_autoCenter="true"
             app:zoomage_autoResetMode="UNDER"
@@ -99,7 +99,7 @@
             android:id="@+id/img2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/gate1ent"
+            android:src="@drawable/gate2"
             app:zoomage_animateOnReset="true"
             app:zoomage_autoCenter="true"
             app:zoomage_autoResetMode="UNDER"
@@ -113,7 +113,7 @@
             android:id="@+id/img3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/gate1tostairs"
+            android:src="@drawable/gate2_hallway"
             app:zoomage_animateOnReset="true"
             app:zoomage_autoCenter="true"
             app:zoomage_autoResetMode="UNDER"
@@ -126,7 +126,7 @@
             android:id="@+id/img4"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/stairstom301"
+            android:src="@drawable/floor_4"
             app:zoomage_animateOnReset="true"
             app:zoomage_autoCenter="true"
             app:zoomage_autoResetMode="UNDER"
@@ -139,7 +139,7 @@
             android:id="@+id/img5"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/stair2m301"
+            android:src="@drawable/to_5th_floor"
             app:zoomage_animateOnReset="true"
             app:zoomage_autoCenter="true"
             app:zoomage_autoResetMode="UNDER"
@@ -152,7 +152,7 @@
             android:id="@+id/img6"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/stair_to_coa"
+            android:src="@drawable/floor_5"
             app:zoomage_animateOnReset="true"
             app:zoomage_autoCenter="true"
             app:zoomage_autoResetMode="UNDER"
@@ -165,7 +165,7 @@
             android:id="@+id/img7"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/to_coa_stair"
+            android:src="@drawable/to_6th_floor"
             app:zoomage_animateOnReset="true"
             app:zoomage_autoCenter="true"
             app:zoomage_autoResetMode="UNDER"
@@ -178,7 +178,7 @@
             android:id="@+id/img8"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/coa_stair"
+            android:src="@drawable/floor_6"
             app:zoomage_animateOnReset="true"
             app:zoomage_autoCenter="true"
             app:zoomage_autoResetMode="UNDER"
@@ -191,7 +191,85 @@
             android:id="@+id/img9"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/to_coa"
+            android:src="@drawable/to_7th_floor"
+            app:zoomage_animateOnReset="true"
+            app:zoomage_autoCenter="true"
+            app:zoomage_autoResetMode="UNDER"
+            app:zoomage_maxScale="8"
+            app:zoomage_minScale="0.6"
+            app:zoomage_restrictBounds="false"
+            app:zoomage_translatable="true"
+            app:zoomage_zoomable="true" />
+        <com.jsibbold.zoomage.ZoomageView
+            android:id="@+id/img10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/floor_7"
+            app:zoomage_animateOnReset="true"
+            app:zoomage_autoCenter="true"
+            app:zoomage_autoResetMode="UNDER"
+            app:zoomage_maxScale="8"
+            app:zoomage_minScale="0.6"
+            app:zoomage_restrictBounds="false"
+            app:zoomage_translatable="true"
+            app:zoomage_zoomable="true" />
+        <com.jsibbold.zoomage.ZoomageView
+            android:id="@+id/img11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/to_8th_floor"
+            app:zoomage_animateOnReset="true"
+            app:zoomage_autoCenter="true"
+            app:zoomage_autoResetMode="UNDER"
+            app:zoomage_maxScale="8"
+            app:zoomage_minScale="0.6"
+            app:zoomage_restrictBounds="false"
+            app:zoomage_translatable="true"
+            app:zoomage_zoomable="true" />
+        <com.jsibbold.zoomage.ZoomageView
+            android:id="@+id/img12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/hallway_to_chtm2"
+            app:zoomage_animateOnReset="true"
+            app:zoomage_autoCenter="true"
+            app:zoomage_autoResetMode="UNDER"
+            app:zoomage_maxScale="8"
+            app:zoomage_minScale="0.6"
+            app:zoomage_restrictBounds="false"
+            app:zoomage_translatable="true"
+            app:zoomage_zoomable="true" />
+        <com.jsibbold.zoomage.ZoomageView
+            android:id="@+id/img13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/hallway_to_chtm1"
+            app:zoomage_animateOnReset="true"
+            app:zoomage_autoCenter="true"
+            app:zoomage_autoResetMode="UNDER"
+            app:zoomage_maxScale="8"
+            app:zoomage_minScale="0.6"
+            app:zoomage_restrictBounds="false"
+            app:zoomage_translatable="true"
+            app:zoomage_zoomable="true" />
+        <com.jsibbold.zoomage.ZoomageView
+            android:id="@+id/img14"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/hallway_to_chtm"
+            app:zoomage_animateOnReset="true"
+            app:zoomage_autoCenter="true"
+            app:zoomage_autoResetMode="UNDER"
+            app:zoomage_maxScale="8"
+            app:zoomage_minScale="0.6"
+            app:zoomage_restrictBounds="false"
+            app:zoomage_translatable="true"
+            app:zoomage_zoomable="true" />
+        <com.jsibbold.zoomage.ZoomageView
+            android:id="@+id/img15"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/tochtm"
             app:zoomage_animateOnReset="true"
             app:zoomage_autoCenter="true"
             app:zoomage_autoResetMode="UNDER"
@@ -226,5 +304,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="SpeakableTextPresentCheck" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

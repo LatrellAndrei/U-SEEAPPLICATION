@@ -16,7 +16,7 @@ public class s220_to_g204_s220_clicked extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.s220_to_g204_s220_clicked);
-        btns220 = (Button) findViewById(R.id.btns220);
+        btns220 = (Button) findViewById(R.id.btnS220);
         btns220.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".s220_to_g204_s220_clicked">
+    tools:context=".s220_to_u204_floor2_clicked">
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -37,7 +37,6 @@
                     android:layout_marginTop="5dp"
                     android:orientation="vertical"
                     android:gravity="center">
-
                     <Button
                         android:id="@+id/shallway"
                         android:layout_width="200dp"
@@ -276,7 +275,7 @@
 
 
                 </LinearLayout>
+
         </ScrollView>
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
