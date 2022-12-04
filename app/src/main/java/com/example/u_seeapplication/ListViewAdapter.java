@@ -132,7 +132,7 @@ public class ListViewAdapter extends BaseAdapter {
                     Intent intent = new Intent(mContext, gates_to_gym.class);
                     mContext.startActivity(intent);
                 }
-                if(modellist.get(position).getTitle().equals("M203")){
+                if(modellist.get(position).getTitle().equals("M203(COA department)")){
                     Intent intent = new Intent(mContext, gates_to_m203.class);
                     mContext.startActivity(intent);
                 }
@@ -182,6 +182,14 @@ public class ListViewAdapter extends BaseAdapter {
                 }
                 if(modellist.get(position).getTitle().equals("U204")){
                     Intent intent = new Intent(mContext, gates_to_u204.class);
+                    mContext.startActivity(intent);
+                }
+                if(modellist.get(position).getTitle().equals("F503")){
+                    Intent intent = new Intent(mContext, gates_to_f503.class);
+                    mContext.startActivity(intent);
+                }
+                if(modellist.get(position).getTitle().equals("S107")){
+                    Intent intent = new Intent(mContext, gates_to_s107.class);
                     mContext.startActivity(intent);
                 }
 

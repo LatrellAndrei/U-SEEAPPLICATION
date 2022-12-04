@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".gates_to_s107_gates_clicked">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You are in gate?"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.114" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/gate1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="GATE 1"
+            android:layout_marginBottom="40dp"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_marginTop="210dp"
+            />
+
+        <Button
+            android:id="@+id/gate2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="GATE 2"
+            android:layout_marginBottom="40dp"
+            android:textAlignment="center"
+            android:textSize="30sp"
+
+            />
+
+
+        <Button
+            android:id="@+id/gate3"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="GATE 3"
+            android:layout_marginBottom="40dp"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            />
+
+
+        <Button
+            android:id="@+id/gate5"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="GATE 5"
+            android:layout_marginBottom="40dp"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            />
+
+
+        <Button
+            android:id="@+id/gate6"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="GATE 6"
+            android:layout_marginBottom="40dp"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

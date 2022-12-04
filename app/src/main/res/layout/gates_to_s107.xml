@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".gates_to_m301">
-
+    tools:context=".gates_to_s107">
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -47,10 +46,10 @@
         android:gravity="center">
 
         <Button
-            android:id="@+id/btnbuilding"
+            android:id="@+id/btncolleges"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:text="BUILDING"
+            android:text="Building"
             android:textSize="20sp"
             android:fontFamily="sans-serif"
             android:padding="30dp"
@@ -78,6 +77,4 @@
             android:layout_marginTop="170dp"/>
 
     </LinearLayout>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

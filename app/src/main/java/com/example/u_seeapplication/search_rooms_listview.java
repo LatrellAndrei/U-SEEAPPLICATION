@@ -39,7 +39,7 @@ public class search_rooms_listview extends AppCompatActivity {
                 "M307",
                 "S312",
                 "GYM",
-                "M203",
+                "M203(COA department)",
                 "M210",
                 "S214(CEA department)",
                 "S216(CTE department)",
@@ -51,7 +51,9 @@ public class search_rooms_listview extends AppCompatActivity {
                 "U605(Law department)",
                 "4005(CAS department)",
                 "U601(Moot Court)",
-                "U204"};
+                "U204",
+                "F503",
+                "S107"};
         description = new String[]
                 {
                 "Main Building",
@@ -75,7 +77,9 @@ public class search_rooms_listview extends AppCompatActivity {
                 "BRS Building",
                 "EDS Building",
                 "BRS Building",
-                "BRS Building"};
+                "BRS Building",
+                "EDS Building",
+                "Science Building"};
 
         icon = new int[]
                         {R.drawable.m301,
@@ -99,7 +103,9 @@ public class search_rooms_listview extends AppCompatActivity {
                          R.drawable.col,
                          R.drawable.cas,
                          R.drawable.u601,
-                         R.drawable.u204};
+                         R.drawable.u204,
+                         R.drawable.f503,
+                        R.drawable.s107};
 
 
 

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".m302_to_f503_floor3_clicked">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:text="You are located at?"
+        android:textSize="48sp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="180dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="1dp"
+            android:layout_gravity="center"
+            tools:layout_editor_absoluteY="181dp"
+            tools:ignore="MissingConstraints">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/mhallway"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="hallway"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="sans-serif"
+                    android:textSize="20sp"
+                    android:padding="20dp"/>
+
+                <Button
+                    android:id="@+id/btnm301"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Room m301"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="sans-serif"
+                    android:textSize="20sp"
+                    android:padding="20dp"/>
+                <Button
+                    android:id="@+id/btnm302"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Room m302"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="sans-serif"
+                    android:textSize="20sp"
+                    android:padding="20dp"/>
+                <Button
+                    android:id="@+id/btnm303"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Room m303"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="sans-serif"
+                    android:textSize="20sp"
+                    android:padding="20dp"/>
+                <Button
+                    android:id="@+id/btnm304"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Room m304"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="sans-serif"
+                    android:textSize="20sp"
+                    android:padding="20dp"/>
+                <Button
+                    android:id="@+id/btnm305"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Room m305"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="sans-serif"
+                    android:textSize="20sp"
+                    android:padding="20dp"/>
+                <Button
+                    android:id="@+id/btnm306"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Room m306"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="sans-serif"
+                    android:textSize="20sp"
+                    android:padding="20dp"/>
+                <Button
+                    android:id="@+id/btnm307"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Room m307"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="sans-serif"
+                    android:textSize="20sp"
+                    android:padding="20dp"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
