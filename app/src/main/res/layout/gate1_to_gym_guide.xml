@@ -11,30 +11,19 @@
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="525dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/view_flipper">
-<LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal">
+        android:orientation="vertical">
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
         android:text="GYM"
-        android:layout_marginLeft="135dp"
         android:textColor="@color/black"
         android:textSize="50sp"
-        tools:ignore="MissingConstraints" />
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
 
-
-</LinearLayout>
         <TextView
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
@@ -44,36 +33,31 @@
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="25sp"
-            tools:ignore="MissingConstraints" />
+            android:layout_gravity="center"/>
 
     </LinearLayout>
 
-
-    <Button
-        android:id="@+id/dashbtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Dashboard"
-        android:layout_marginTop="155dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/next"
-        app:layout_constraintStart_toStartOf="@+id/previous"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
-
-
-    <Button
-        android:id="@+id/btnroom"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Find other room"
-        android:layout_marginTop="280dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/next"
-        app:layout_constraintStart_toStartOf="@+id/previous"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
-
-
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/dashbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dashboard"
+            android:layout_marginTop="550dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:id="@+id/btnroom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find other room"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
 
     <ViewFlipper
         android:id="@+id/view_flipper"
@@ -83,9 +67,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-
-
-
 
         <com.jsibbold.zoomage.ZoomageView
             android:id="@+id/img1"

@@ -2,21 +2,15 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="#EBFCF8"
     tools:context=".s312Act">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="525dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/view_flipper"
-        >
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/textView"
@@ -25,10 +19,11 @@
             android:fontFamily="sans-serif-black"
             android:text="S312"
             android:textAlignment="center"
-            android:layout_marginLeft="138dp"
             android:textColor="@color/black"
             android:textSize="40sp"
-            tools:ignore="MissingConstraints" />
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"/>
+
         <TextView
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
@@ -38,8 +33,30 @@
             android:textColor="@color/black"
             android:textAlignment="center"
             android:textSize="25sp"
-            tools:ignore="MissingConstraints" />
+            android:layout_gravity="center" />
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/dashbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dashboard"
+            android:layout_marginTop="550dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:id="@+id/btnroom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find other room"
+            android:layout_gravity="center"
+            />
     </LinearLayout>
 
     <ViewFlipper
@@ -50,9 +67,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-
-
-
 
         <com.jsibbold.zoomage.ZoomageView
             android:id="@+id/img1"

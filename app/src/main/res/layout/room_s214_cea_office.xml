@@ -7,26 +7,20 @@
     android:background="#EBFCF8"
     tools:context=".room_s214_cea_office">
     <LinearLayout
-        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="525dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/view_flipper">
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="120dp"
             android:fontFamily="sans-serif-black"
             android:text="S214"
             android:textColor="@color/black"
             android:textSize="50sp"
-            tools:ignore="MissingConstraints" />
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"/>
 
         <TextView
             android:id="@+id/textView1"
@@ -37,36 +31,32 @@
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="25sp"
-            tools:ignore="MissingConstraints" />
+            android:layout_gravity="center" />
 
     </LinearLayout>
 
 
-    <Button
-        android:id="@+id/dashbtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="250dp"
-        android:text="Dashboard"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/next"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="@+id/previous"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.343" />
-
-    <Button
-        android:id="@+id/btnroom"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="380dp"
-        android:text="Find other room"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/next"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="@+id/previous"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.0" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/dashbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dashboard"
+            android:layout_marginTop="550dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:id="@+id/btnroom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find other room"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
 
     <ViewFlipper
         android:id="@+id/view_flipper"

@@ -2,64 +2,57 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#EBFCF8"
     tools:context=".ceaAct">
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="300dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.296">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="110dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
             android:fontFamily="sans-serif-black"
             android:text="CEA"
             android:textColor="@color/black"
-            android:textSize="40sp"
-            tools:ignore="MissingConstraints" />
+            android:textSize="40sp" />
 
         <TextView
             android:id="@+id/textView1"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif"
+            android:layout_gravity="center"
             android:text="2nd floor Science building besides CTE department"
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="25sp"
-            tools:ignore="MissingConstraints" />
+            android:textSize="25sp" />
 
     </LinearLayout>
 
     <ViewFlipper
         android:id="@+id/view_flipper"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
         android:autoStart="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.746">
+        app:layout_constraintTop_toTopOf="parent">
 
 
         <com.jsibbold.zoomage.ZoomageView
             android:id="@+id/img1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:src="@drawable/cea"
+            android:layout_marginTop="25dp"
+            android:padding="10dp"
             app:zoomage_animateOnReset="true"
             app:zoomage_autoCenter="true"
             app:zoomage_autoResetMode="UNDER"
@@ -68,12 +61,13 @@
             app:zoomage_restrictBounds="false"
             app:zoomage_translatable="true"
             app:zoomage_zoomable="true" />
-
         <com.jsibbold.zoomage.ZoomageView
             android:id="@+id/img2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:src="@drawable/ceaprograms"
+            android:layout_marginTop="25dp"
+            android:padding="10dp"
             app:zoomage_animateOnReset="true"
             app:zoomage_autoCenter="true"
             app:zoomage_autoResetMode="UNDER"
@@ -82,7 +76,6 @@
             app:zoomage_restrictBounds="false"
             app:zoomage_translatable="true"
             app:zoomage_zoomable="true" />
-
 
     </ViewFlipper>
 
@@ -90,25 +83,29 @@
         android:id="@+id/next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="24dp"
         android:minHeight="48dp"
         android:src="@drawable/ic_baseline_navigate_next_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/view_flipper"
+        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.852"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/previous"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
         android:minHeight="48dp"
         android:src="@drawable/ic_baseline_keyboard_arrow_left_24"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.385"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.852"
         tools:ignore="SpeakableTextPresentCheck" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

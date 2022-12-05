@@ -25,12 +25,20 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent">
 
-                <ImageView
+                <com.jsibbold.zoomage.ZoomageView
                     android:layout_width="wrap_content"
                     android:layout_height="320dp"
                     android:id="@+id/ivimage"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/gate1ent"/>
+                    android:src="@drawable/gate1ent"
+                    app:zoomage_animateOnReset="true"
+                    app:zoomage_autoCenter="true"
+                    app:zoomage_autoResetMode="UNDER"
+                    app:zoomage_maxScale="8"
+                    app:zoomage_minScale="0.6"
+                    app:zoomage_restrictBounds="false"
+                    app:zoomage_translatable="true"
+                    app:zoomage_zoomable="true"/>
 
                 <TextView
                     android:id="@+id/tvHeading"
@@ -53,9 +61,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/tvHeading"
-                    android:layout_marginStart="50dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="8dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="71dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginEnd="66dp"
                     android:layout_marginBottom="8dp"
                     android:text="@string/gate1"
                     android:textAlignment="center"
