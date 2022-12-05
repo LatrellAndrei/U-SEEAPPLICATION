@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class gates_to_f503 extends AppCompatActivity {
-    private Button btngates,btnbuilding;
+    private Button btngates,btnbuilding,facilities;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +29,14 @@ public class gates_to_f503 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(gates_to_f503.this, m302_to_f503_building_clicked.class);
+                startActivity(i);
+            }
+        });
+        facilities = (Button) findViewById(R.id.facilities);
+        facilities.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(gates_to_f503.this, main_library_to_f503_facilities_clicked.class);
                 startActivity(i);
             }
         });

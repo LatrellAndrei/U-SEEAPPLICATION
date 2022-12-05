@@ -13,6 +13,41 @@
         android:theme="@style/Theme.USEEAPPLICATION"
         tools:targetApi="31">
         <activity
+            android:name=".theatre_to_f503_guide"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".main_library_to_f503_guide"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".main_library_to_f503_facilities_clicked"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cafeteria_to_s214_guide"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cafeteria_to_s214_facilities_clicked"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".m302_to_f503_guide"
             android:exported="false">
             <meta-data
@@ -419,7 +454,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".room_s216_cea_office"
+            android:name=".room_s216_cte_office"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -454,7 +489,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".room_s214_cte_office"
+            android:name=".room_s214_cea_office"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

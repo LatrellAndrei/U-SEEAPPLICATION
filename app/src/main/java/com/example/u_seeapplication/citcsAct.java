@@ -20,6 +20,7 @@ public class citcsAct extends AppCompatActivity {
         Next = findViewById(R.id.next);
         Previous = findViewById(R.id.previous);
 
+
         Next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
